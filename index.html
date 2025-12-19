@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoonFNFBrowser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Peaceful Opening Screen -->
+    <div id="intro" class="intro-active">
+        <div class="intro-content">
+            <img src="logo.png" alt="Moon Logo" class="intro-logo">
+            <img src="title.png" alt="MOON" class="intro-title">
+            <p>Relax and explore the rhythm universe</p>
+            <button id="enter-btn">Enter MoonFNFBrowser</button>
+        </div>
+        <audio id="bg-music" loop autoplay volume="0.4">
+            <source src="calm-ambient.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Main Hub (hidden until enter) -->
+    <div id="main-hub" class="hidden">
+        <header>
+            <div class="logo-container">
+                <img src="logo.png" alt="Moon Logo" class="main-logo">
+                <img src="title.png" alt="MOON" class="title-logo">
+            </div>
+            <input type="text" id="search" placeholder="Search mods...">
+        </header>
+
+        <main id="mod-grid" class="mod-grid">
+            <!-- Mod cards added by script.js -->
+        </main>
+
+        <div id="player-modal" class="modal hidden">
+            <div class="modal-header">
+                <h2 id="mod-title"></h2>
+                <button id="fullscreen-btn">Full Screen</button>
+                <button id="exit-fullscreen" class="hidden">Exit Full Screen</button>
+                <button id="close-modal">Close</button>
+            </div>
+            <iframe id="mod-player" src="" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
