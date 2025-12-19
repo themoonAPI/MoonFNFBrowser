@@ -108,4 +108,3 @@ document.getElementById('enter-btn').addEventListener('click', () => {
     document.getElementById('main-hub').classList.remove('hidden');
   }, 2000);
 });
-
