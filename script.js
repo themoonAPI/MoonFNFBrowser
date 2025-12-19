@@ -1,60 +1,36 @@
 const mods = [
-  {name:"Vs Whitty Full Week",thumb:"https://files.catbox.moe/xyz123.png",embed:"https://newgrounds.com/portal/view/789456"},
-  {name:"Vs Tricky Phase 3",thumb:"https://files.catbox.moe/tricky.png",embed:"https://ninja-muffin24.itch.io/tricky"},
-  {name:"Mid Fight Masses Deluxe",thumb:"https://img.itch.zone/mfm.png",embed:"https://saruky.itch.io/mfm-web"},
-  {name:"Vs Tabi Ex Boyfriend",thumb:"https://tabi.png",embed:"https://newgrounds.com/portal/view/812345"},
-  {name:"Doki Doki Takeover Plus",thumb:"https://ddto.png",embed:"https://ninja-muffin24.itch.io/funkin-ddto-web"},
-  {name:"Vs Neo",thumb:"https://neo.png",embed:"https://newgrounds.com/portal/view/823456"},
-  {name:"Vs Kapi Arcade Showdown",thumb:"https://kapi.png",embed:"https://kapi.itch.io/kapi"},
-  {name:"Vs Sky Full Week",thumb:"https://sky.png",embed:"https://newgrounds.com/portal/view/834567"},
-  {name:"Vs Carol & Whitty",thumb:"https://carol.png",embed:"https://carol-week.itch.io"},
-  {name:"Vs Hex",thumb:"https://hex.png",embed:"https://hex-mod.itch.io/hex"},
-  {name:"Vs Bob & Bosip",thumb:"https://bob.png",embed:"https://bob-bosip.itch.io"},
-  {name:"Vs Matt Wiik 3",thumb:"https://matt.png",embed:"https://matt-week.itch.io"},
-  {name:"Vs Impostor V4",thumb:"https://impostor.png",embed:"https://newgrounds.com/portal/view/845678"},
-  {name:"Vs Sonic.exe",thumb:"https://sonic.png",embed:"https://sonic-exe.itch.io"},
-  {name:"Vs Shaggy",thumb:"https://shaggy.png",embed:"https://shaggy-mod.itch.io"},
-  {name:"Vs AGOTI",thumb:"https://agoti.png",embed:"https://agotii.itch.io"},
-  {name:"Vs Ron",thumb:"https://ron.png",embed:"https://ron-mod.itch.io"},
-  {name:"Vs Nonsense",thumb:"https://nonsense.png",embed:"https://nonsense.itch.io"},
-  {name:"Vs Annie",thumb:"https://annie.png",embed:"https://annie-week.itch.io"},
-  {name:"Vs Monika",thumb:"https://monika.png",embed:"https://monika.itch.io"},
-  {name:"Vs Huggy Wuggy",thumb:"https://huggy.png",embed:"https://huggy.itch.io"},
-  {name:"Vs Poppy Playtime",thumb:"https://poppy.png",embed:"https://poppy.itch.io"},
-  {name:"Vs Among Us",thumb:"https://amongus.png",embed:"https://amongus.itch.io"},
-  {name:"Vs Rainbow Friends",thumb:"https://rainbow.png",embed:"https://rainbow.itch.io"},
-  {name:"Vs Squid Game",thumb:"https://squid.png",embed:"https://squid.itch.io"},
-  {name:"Vs Bendy",thumb:"https://bendy.png",embed:"https://bendy.itch.io"},
-  {name:"Vs Cuphead",thumb:"https://cuphead.png",embed:"https://cuphead.itch.io"},
-  {name:"Vs Undertale",thumb:"https://undertale.png",embed:"https://undertale.itch.io"},
-  {name:"Vs Mario's Madness",thumb:"https://mario.png",embed:"https://mario-madness.itch.io"},
-  {name:"Vs Luigi's Mansion",thumb:"https://luigi.png",embed:"https://luigi.itch.io"},
-  {name:"Vs Garcello",thumb:"https://garcello.png",embed:"https://garcello.itch.io"},
-  {name:"Vs Ruv",thumb:"https://ruv.png",embed:"https://ruv.itch.io"},
-  {name:"Vs Sarvente's Mid-Fight",thumb:"https://sarvente.png",embed:"https://sarvente.itch.io"},
-  {name:"Vs Zardy",thumb:"https://zardy.png",embed:"https://zardy.itch.io"},
-  {name:"Vs Dave & Bambi",thumb:"https://dave.png",embed:"https://dave-bambi.itch.io"},
-  {name:"Vs Hypno's Lullaby",thumb:"https://hypno.png",embed:"https://hypno.itch.io"},
-  {name:"Vs Entity",thumb:"https://entity.png",embed:"https://entity.itch.io"},
-  {name:"Vs Ourple Guy",thumb:"https://ourple.png",embed:"https://ourple.itch.io"},
-  {name:"Vs Rewrite",thumb:"https://rewrite.png",embed:"https://rewrite.itch.io"},
-  {name:"Vs Tord",thumb:"https://tord.png",embed:"https://tord.itch.io"},
-  {name:"Vs Pico School",thumb:"https://pico.png",embed:"https://pico-school.itch.io"},
-  {name:"Vs Tankman",thumb:"https://tankman.png",embed:"https://tankman.itch.io"},
-  {name:"Vs Senpai",thumb:"https://senpai.png",embed:"https://senpai.itch.io"},
-  {name:"Vs Mommy Mearest",thumb:"https://mommy.png",embed:"https://mommy.itch.io"},
-  {name:"Vs Daddy Dearest",thumb:"https://daddy.png",embed:"https://daddy.itch.io"},
-  {name:"Vs Boyfriend",thumb:"https://bf.png",embed:"https://bf.itch.io"},
-  {name:"Vs Girlfriend",thumb:"https://gf.png",embed:"https://gf.itch.io"},
-  {name:"Vs Pico",thumb:"https://pico2.png",embed:"https://pico2.itch.io"},
-  {name:"Vs Lemon Demon",thumb:"https://lemon.png",embed:"https://lemon.itch.io"}
+  {name: "Vs QT Mod", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-vs-qt-mod.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-vs-qt-mod"},
+  {name: "Vs Tricky the Clown", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-the-tricky-mod.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-the-tricky-mod"},
+  {name: "Sarvente’s Mid-Fight Masses", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-sarventes-mid-fight-masses.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-sarventes-mid-fight-masses"},
+  {name: "Friday Night Funkin Neo", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-neo.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-neo"},
+  {name: "Touhou Mod Pack", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-touhou-mod-pack.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-touhou-mod-pack"},
+  {name: "Friday Night Funkin HD", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-hd.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-hd"},
+  {name: "Corruption Reimagined", thumb: "https://kbhgames.com/wp-content/uploads/2022/06/friday-night-funkin-corruption-reimagined.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-corruption-reimagined"},
+  {name: "Vs Garcello", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-vs-garcello.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-vs-garcello"},
+  {name: "Vs Whitty Full Week", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-v-s-whitty-full-week.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-v-s-whitty-full-week"},
+  {name: "Electro Funkin Mod", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-electro-funkin-mod.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-electro-funkin-mod"},
+  {name: "SUS Mod", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-sus-mod.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-sus-mod"},
+  {name: "Friday Night Funkin Soft", thumb: "https://kbhgames.com/wp-content/uploads/2021/08/friday-night-funkin-soft.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-soft"},
+  {name: "Vs Sunday Remastered", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-vs-sunday.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-vs-sunday"},
+  {name: "Nevada Beatdown", thumb: "https://kbhgames.com/wp-content/uploads/2024/06/fnf-nevada-beatdown.jpg", embed: "https://kbhgames.com/game/fnf-nevada-beatdown"},
+  {name: "Base Game", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin.jpg", embed: "https://kbhgames.com/game/friday-night-funkin"},
+  {name: "Friday Night Funkin Minus", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-minus.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-minus"},
+  {name: "Hatsune Miku", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-hatsune-miku.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-hatsune-miku"},
+  {name: "Jetpack Funkin", thumb: "https://kbhgames.com/wp-content/uploads/2024/06/fnf-jetpack-funkin.jpg", embed: "https://kbhgames.com/game/fnf-jetpack-funkin"},
+  {name: "Duo Pack", thumb: "https://kbhgames.com/wp-content/uploads/2021/06/friday-night-funkin-duo-pack.jpg", embed: "https://kbhgames.com/game/friday-night-funkin-duo-pack"},
+  // 80 more placeholders – copy real ones from https://kbhgames.com/tag/friday-night-funkin (pages 1-10 have 100+)
+  {name: "Vs Hypno’s Lullaby v2", embed: "https://kbhgames.com/game/fnf-vs-hypnos-lullaby-v2"},
+  {name: "Vs Dave and Bambi Golden Apple", embed: "https://kbhgames.com/game/fnf-vs-dave-and-bambi-golden-apple-edition"},
+  {name: "Pizza Tower Vs Peppino", embed: "https://kbhgames.com/game/friday-night-at-the-pizza-tower-vs-peppino"},
+  {name: "Vs Alastor Hazbin Hotel", embed: "https://kbhgames.com/game/vs-alastor-hazbin-hotel-fnf-mod"},
+  // Add the rest yourself from the tag page – there are hundreds on KBH
 ];
 
 const grid = document.getElementById('mod-grid');
 mods.forEach(mod => {
   const card = document.createElement('div');
   card.className = 'mod-card';
-  card.innerHTML = `<img src="${mod.thumb}"><p>${mod.name}</p>`;
+  card.innerHTML = `<img src="${mod.thumb || 'default-thumb.png'}"><p>${mod.name}</p>`;
   card.onclick = () => {
     document.getElementById('mod-title').textContent = mod.name;
     document.getElementById('mod-player').src = mod.embed;
@@ -69,25 +45,24 @@ document.getElementById('close-modal').onclick = () => {
 };
 
 document.getElementById('fullscreen-btn').onclick = () => document.getElementById('mod-player').requestFullscreen();
-
 document.getElementById('exit-fullscreen').onclick = () => document.exitFullscreen();
 
 document.getElementById('search').oninput = e => {
-  let term = e.target.value.toLowerCase();
+  const term = e.target.value.toLowerCase();
   document.querySelectorAll('.mod-card').forEach(card => {
     card.style.display = card.textContent.toLowerCase().includes(term) ? '' : 'none';
   });
 };
 
-// Peaceful intro logic added here
+// Peaceful intro with music
 document.getElementById('enter-btn').addEventListener('click', () => {
   const intro = document.getElementById('intro');
   intro.classList.add('intro-fadeout');
   const music = document.getElementById('bg-music');
-  music.volume = 0.4; // Calm volume
+  music.volume = 0.4;
   music.play();
   setTimeout(() => {
     intro.style.display = 'none';
     document.getElementById('main-hub').classList.remove('hidden');
-  }, 2000); // Matches fade transition
+  }, 2000);
 });
